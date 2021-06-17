@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    padding: 10px;
+}
+.products {
+    margin: auto;
+    width: 350px;
+}
+.products h3{
+    font-weight: bold;
+    color: forestgreen;
+    padding: 0px;
+    display: inline;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 5px;
+    border: 1px solid forestgreen;
+}
+.btn{
+    width: 158px;
+}

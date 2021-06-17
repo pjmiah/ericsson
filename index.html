@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>EBL & Huawei Products</title>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="img/logo.png" alt="">
+    </div>
+    
+    <section class="products">
+        
+        <h3>Ericsson Product Code</h3> <br>
+
+            <input type="text" value="ROJ 208 1311/1" id="myInput" >
+            <button onclick="myFunction()" class="btn btn-success">Copy MMU3A</button> <br> <br>
+
+            <input type="text" value="ROJ 208 1305/1" id="myInput">
+            <button onclick="myFunction()" class="btn btn-success">Copy MMU2D</button> <br> <br>
+
+            <input type="text" value="ROJR 208 011/1" id="myInput">
+            <button onclick="myFunction()" class="btn btn-success">Copy NPU3C</button> <br> <br>
+
+            <input type="text" value="BFD 599 030/3" id="myInput">
+            <button onclick="myFunction()" class="btn btn-success">Copy AMM6P_C</button> <br> <br>
+
+            <input type="text" value="ROJR 219 011/1" id="myInput">
+            <button onclick="myFunction()" class="btn btn-success">Copy AMM6P_FAN</button> <br> <br>
+
+            <input type="text" value="BFD 599 028/1" id="myInput">
+            <button onclick="myFunction()" class="btn btn-success">Copy AMM20P_B</button> <br> <br>
+            <input type="text" value="BFD 509 14/1" id="myInput">
+            <button onclick="myFunction()" class="btn btn-success">Copy AMM20P_FAN</button> <br> <br>
+
+            <h3>Huawei Product Code</h3> <br>
+
+            <input type="text" value="2102100054N0A2000092" id="myInput" >
+            <button onclick="myFunction()" class="btn btn-success"> Copy EMU</button> <br> <br>
+
+    </section>
+
+    <script>
+    function myFunction() {
+    var copyText = document.getElementById("myInput");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied Done: " + copyText.value);
+    }
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+
+
+</body>
+</html>
