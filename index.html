@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="style.css">
     <title>EBL & Huawei Products</title>
 </head>
@@ -16,49 +16,293 @@
         <img src="img/logo.png" alt="">
     </div>
     
-    <section class="products col-md-3">
-        
+
+    <section class="">
         <h3>Ericsson Product Code</h3> <br>
+    <!--==============MY INPUT 1==================-->
 
-            <input type="text" value="ROJ 208 1311/1" id="myInput" >
-            <button onclick="myFunction()" class="btn btn-success">Copy MMU3A</button> <br> <br>
+            <input type="text" value="ROJ 208 1311/1" id="myInput1" class="btn-input">
 
-            <input type="text" value="ROJ 208 1305/1" id="myInput">
-            <button onclick="myFunction()" class="btn btn-success">Copy MMU2D</button> <br> <br>
+            <div class="tooltip">
+            <button onclick="myFunction1()" onmouseout="outFunc()" class="btn">
+            <span class="tooltiptext" id="myTooltip1">Copy to clipboard</span>
+            MMU3A
+            </button>
+            </div>
 
-            <input type="text" value="ROJR 208 011/1" id="myInput">
-            <button onclick="myFunction()" class="btn btn-success">Copy NPU3C</button> <br> <br>
+            <br> <br>
 
-            <input type="text" value="BFD 599 030/3" id="myInput">
-            <button onclick="myFunction()" class="btn btn-success">Copy AMM6P_C</button> <br> <br>
+    <!--==============MY INPUT 2 START==================-->
+            <input type="text" value="ROJ 208 1305/1" id="myInput2" class="btn-input">
 
-            <input type="text" value="ROJR 219 011/1" id="myInput">
-            <button onclick="myFunction()" class="btn btn-success">Copy AMM6P_FAN</button> <br> <br>
+            <div class="tooltip">
+            <button onclick="myFunction2()" onmouseout="outFunc()" class="btn">
+            <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
+            MMU2D
+            </button>
+            </div>
+            <br> <br>
+    <!--==============MY INPUT 2 END==================-->
 
-            <input type="text" value="BFD 599 028/1" id="myInput">
-            <button onclick="myFunction()" class="btn btn-success">Copy AMM20P_B</button> <br> <br>
-            <input type="text" value="BFD 509 14/1" id="myInput">
-            <button onclick="myFunction()" class="btn btn-success">Copy AMM20P_FAN</button> <br> <br>
+    <!--==============MY INPUT 3 START==================-->
+    <input type="text" value="ROJR 208 011/1" id="myInput3" class="btn-input">
 
-            <h3>Huawei Product Code</h3> <br>
+    <div class="tooltip">
+    <button onclick="myFunction3()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip3">Copy to clipboard</span>
+    NPU3C
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 3 END==================-->
+    <!--==============MY INPUT 4 START==================-->
+    <input type="text" value="BFD 599 030/3" id="myInput4" class="btn-input">
 
-            <input type="text" value="2102100054N0A2000092" id="myInput" >
-            <button onclick="myFunction()" class="btn btn-success"> Copy EMU</button> <br> <br>
+    <div class="tooltip">
+    <button onclick="myFunction4()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip4">Copy to clipboard</span>
+    AMM6P_C
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 4 END==================-->
+    <!--==============MY INPUT 5 START==================-->
+    <input type="text" value="ROJR 219 011/1" id="myInput5" class="btn-input">
+
+    <div class="tooltip">
+    <button onclick="myFunction5()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip5">Copy to clipboard</span>
+    6P_FAN
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 5 END==================-->
+    <!--==============MY INPUT 6 START==================-->
+    <input type="text" value="BFD 599 028/1" id="myInput6" class="btn-input">
+
+    <div class="tooltip">
+    <button onclick="myFunction6()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip6">Copy to clipboard</span>
+    AMM20P_B
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 6 END==================-->
+    <!--==============MY INPUT 7 START==================-->
+    <input type="text" value="BFD 509 14/1" id="myInput7" class="btn-input">
+
+    <div class="tooltip">
+    <button onclick="myFunction7()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip7">Copy to clipboard</span>
+    20P_FAN
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 7 END==================-->
+    <!--==============MY INPUT 8 START==================-->
+    <input type="text" value="KRC161670/1" id="myInput8" class="btn-input">
+
+    <div class="tooltip">
+    <button onclick="myFunction8()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip8">Copy to clipboard</span>
+    RRU2219B8
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 8 END==================-->
+    <!--==============MY INPUT 9 START==================-->
+    <input type="text" value="KRC161622/1" id="myInput9" class="btn-input">
+
+    <div class="tooltip">
+    <button onclick="myFunction9()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip9">Copy to clipboard</span>
+    RRU2219B1
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 9 END==================-->
+    <h3>Huawei Product Code</h3> <br>
+    <!--==============MY INPUT 10 START==================-->
+    <input type="text" value="2102100054N0A2000092" id="myInput10" class="btn-input">
+
+    <div class="tooltip">
+    <button onclick="myFunction10()" onmouseout="outFunc()" class="btn">
+    <span class="tooltiptext" id="myTooltip10">Copy to clipboard</span>
+    BOX_EMU
+    </button>
+    </div>
+    <br> <br>
+    <!--==============MY INPUT 10 END==================-->
 
     </section>
 
     <script>
-    function myFunction() {
-    var copyText = document.getElementById("myInput");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999)
-    document.execCommand("copy");
-    alert("Copied Done!");
-    }
+        //-------MY Function1 Code Start----------------//
+        function myFunction1() {
+        var copyText1 = document.getElementById("myInput1");
+        copyText1.select();
+        copyText1.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip1");
+        tooltip.innerHTML = "Copied: " + copyText1.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip1");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function1 Code End----------------//
+
+        //-------MY Function2 Code Start----------------//
+        function myFunction2() {
+        var copyText2 = document.getElementById("myInput2");
+        copyText2.select();
+        copyText2.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip2");
+        tooltip.innerHTML = "Copied: " + copyText2.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip2");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function2 Code END----------------//
+        //-------MY Function3 Code Start----------------//
+        function myFunction3() {
+        var copyText3 = document.getElementById("myInput3");
+        copyText3.select();
+        copyText3.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip3");
+        tooltip.innerHTML = "Copied: " + copyText3.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip3");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function3 Code END----------------//
+        //-------MY Function4 Code Start----------------//
+        function myFunction4() {
+        var copyText4 = document.getElementById("myInput4");
+        copyText4.select();
+        copyText4.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip4");
+        tooltip.innerHTML = "Copied: " + copyText4.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip4");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function4 Code END----------------//
+        //-------MY Function5 Code Start----------------//
+        function myFunction5() {
+        var copyText5 = document.getElementById("myInput5");
+        copyText5.select();
+        copyText5.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip5");
+        tooltip.innerHTML = "Copied: " + copyText5.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip5");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function5 Code END----------------//
+        //-------MY Function6 Code Start----------------//
+        function myFunction6() {
+        var copyText6 = document.getElementById("myInput6");
+        copyText6.select();
+        copyText6.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip6");
+        tooltip.innerHTML = "Copied: " + copyText6.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip6");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function6 Code END----------------//
+        //-------MY Function7 Code Start----------------//
+        function myFunction7() {
+        var copyText7 = document.getElementById("myInput7");
+        copyText7.select();
+        copyText7.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip7");
+        tooltip.innerHTML = "Copied: " + copyText7.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip7");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function7 Code END----------------//
+        //-------MY Function8 Code Start----------------//
+        function myFunction8() {
+        var copyText8 = document.getElementById("myInput8");
+        copyText8.select();
+        copyText8.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip8");
+        tooltip.innerHTML = "Copied: " + copyText8.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip8");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function8 Code END----------------//
+        //-------MY Function9 Code Start----------------//
+        function myFunction9() {
+        var copyText9 = document.getElementById("myInput9");
+        copyText9.select();
+        copyText9.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip9");
+        tooltip.innerHTML = "Copied: " + copyText9.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip9");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function9 Code END----------------//
+        //-------MY Function10 Code Start----------------//
+        function myFunction10() {
+        var copyText10 = document.getElementById("myInput10");
+        copyText10.select();
+        copyText10.setSelectionRange(0, 1010101010);
+        document.execCommand("copy");
+        
+        var tooltip = document.getElementById("myTooltip10");
+        tooltip.innerHTML = "Copied: " + copyText10.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip10");
+        tooltip.innerHTML = "Copy to clipboard";
+        }
+        //-------MY Function10 Code END----------------//
+
     </script>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
+
+
 
 
 </body>
